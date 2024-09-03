@@ -1,0 +1,18 @@
+
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$328da237-0161-425e-b51e-b01f1f95b4e0
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$d4b9fb00-d630-493f-abfe-113e3567b94d
+L
+java:S1144‚".Remove this unused private "sendEmail" method.(Îê½À8Ïôş‡“2
+b
+java:S1854G"@Remove this useless assignment to local variable "finalSubject".(ÒŞ¨¿úÿÿÿÿ8Õôş‡“2
+b
+java:S1854D"@Remove this useless assignment to local variable "finalMessage".(—Ìö¯ÿÿÿÿÿ8Õôş‡“2
+b
+java:S1854m"@Remove this useless assignment to local variable "finalMessage".(€ŠÃôùÿÿÿÿ8Õôş‡“2
+S
+java:S1481D"1Remove this unused "finalMessage" local variable.(—Ìö¯ÿÿÿÿÿ8Øôş‡“2
+S
+java:S1481E"1Remove this unused "finalSubject" local variable.(Šƒ¹Öùÿÿÿÿ8Ùôş‡“2
+]	java:S125"<This block of commented-out lines of code should be removed.(˜ç¹ûÿÿÿÿ8àôş‡“2

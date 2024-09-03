@@ -1,0 +1,12 @@
+
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ò±†üÿÿÿÿ8ñ¨ç‡2
+‰
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(€Í«§ûÿÿÿÿ8—›¨ç‡2J$d1af7311-e618-4de2-92ee-b4462b626802
+m	java:S106"+Replace this use of System.out by a logger.(³÷±ø8”ˆ§ç‡2J$f806745c-f8fe-4600-ae86-b02f15a170c1
+r	java:S106"+Replace this use of System.out by a logger.(œäøıùÿÿÿÿ8”ˆ§ç‡2J$7a8ae2a7-9c08-4443-8346-0aa69c41a8b5
+r	java:S106"+Replace this use of System.err by a logger.(õÁîëıÿÿÿÿ8”ˆ§ç‡2J$55fea861-8cf0-4fde-ae80-d3108dd8035d
+w
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8é¥§ç‡2J$77996dde-9ca6-4a04-a1bd-3204984fce45
+m
+java:S1128"*Remove this unused import 'java.security'.(èÛò§8é¥§ç‡2J$0716b395-69be-4bba-a992-e067475c6f95

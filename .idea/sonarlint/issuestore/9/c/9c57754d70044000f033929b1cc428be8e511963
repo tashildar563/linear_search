@@ -1,0 +1,5 @@
+
+m	java:S106,"+Replace this use of System.out by a logger.(ÑûæÁ8øÛĞ¨ƒ2J$49ef1706-38ae-477b-ab6e-0512f3083c26
+r	java:S106/"+Replace this use of System.out by a logger.(Âû¯Ğüÿÿÿÿ8ùÛĞ¨ƒ2J$214a5107-0c8e-4d14-9f3d-803b6848de38
+r
+java:S11971"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ùÛĞ¨ƒ2J$51fbbb3e-a4fe-4d39-ba2d-9892e985688e

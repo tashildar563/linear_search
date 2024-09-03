@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-mfi-los" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-mfi-los" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-actor" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-actor/novopay-platform-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-api-gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-api-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-api-gateway/novopay-platform-api-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-approval" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-approval/novopay-platform-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-authorization" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-authorization/novopay-platform-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-initial-setup" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-initial-setup" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-masterdata-management" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-masterdata-management" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-notifications" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-notifications/novopay-platform-notifications" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-payments" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-payments" />
+            <option value="$PROJECT_DIR$/../novopay-platform-payments/novopay-platform-payments" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../novopay-platform-task" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-task" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../novopay-platform-lib" name="novopay-platform-lib">
+                <projects>
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+                  <project path="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../trustt-platform-reporting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../novopay-platform-lib" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/adapter-aadhaar-xsd" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/hierarchy-builder" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-accounting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-actor" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-approval" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-authorization" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-batch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-cache-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-elasticsearch" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-essentials-mysql" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-http-client" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-jtf" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-masterdata" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-matm-payswiff" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-message-broker" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-navigation" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-notifications" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-platform" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-reporting" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-rule-engine" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-gateway" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-service-security" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-task" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-ccavenue" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-hdfc" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-indusind" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-interface" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-paytm" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/infra-transaction-veri5" />
+            <option value="$PROJECT_DIR$/../novopay-platform-lib/util-platform" />
+            <option value="$PROJECT_DIR$/../trustt-platform-reporting" />
+            <option value="$PROJECT_DIR$/../trustt-platform-reporting/trustt-platform-reporting" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../PERSONAL/GIT/DSA" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../../PERSONAL/GIT/DSA" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../PERSONAL/GIT/E-com_web" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../../PERSONAL/GIT/E-com_web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

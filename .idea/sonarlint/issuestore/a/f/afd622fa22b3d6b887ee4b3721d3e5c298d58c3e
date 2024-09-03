@@ -1,0 +1,40 @@
+
+?
+java:S2629&"$Invoke method(s) only conditionally.(ú¨ƒõúÿÿÿÿ
+:
+java:S2629t"$Invoke method(s) only conditionally.(ô™ş“
+p
+java:S11920"UDefine a constant instead of duplicating this literal "notification_message" 3 times.(šªû£üÿÿÿÿ
+¤
+java:S1192-"ˆDefine a constant instead of duplicating this literal "OTP is not triggered due to service down, Do you want to proceed ahead?" 3 times.(›ş”ùÿÿÿÿ
+h
+java:S1192$"RDefine a constant instead of duplicating this literal "function_sub_code" 5 times.(˜·‘‡
+i
+java:S1192F"NDefine a constant instead of duplicating this literal "function_code" 4 times.(‚Ôáèıÿÿÿÿ
+d
+java:S1192-"IDefine a constant instead of duplicating this literal "LOS-0402" 3 times.(›ş”ùÿÿÿÿ
+^
+java:S1192"GDefine a constant instead of duplicating this literal "264004" 3 times.(İïˆ
+b
+java:S1192J"LDefine a constant instead of duplicating this literal "generateOTP" 4 times.(Ë³è‘
+h
+java:S11924"MDefine a constant instead of duplicating this literal "template_url" 6 times.(×‹Šæıÿÿÿÿ
+€
+java:S1192,"eDefine a constant instead of duplicating this literal "Unable to fetch notification message" 3 times.(Æ” “ùÿÿÿÿ
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹ÃÑ
+i
+java:S3008"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¬Îúÿÿÿÿ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+m
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ù–€Ôøÿÿÿÿ
+@
+java:S3457&"%String contains no format specifiers.(ú¨ƒõúÿÿÿÿ
+L
+java:S1874A"6Remove this use of "StrSubstitutor"; it is deprecated.(Á™ÊŠ
+L
+java:S1874A"6Remove this use of "StrSubstitutor"; it is deprecated.(Á™ÊŠ
+L
+java:S1874^"6Remove this use of "StrSubstitutor"; it is deprecated.(Á™ÊŠ
+L
+java:S1874^"6Remove this use of "StrSubstitutor"; it is deprecated.(Á™ÊŠ

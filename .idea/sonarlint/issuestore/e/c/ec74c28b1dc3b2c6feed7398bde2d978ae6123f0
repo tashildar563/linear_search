@@ -1,0 +1,60 @@
+
+~
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄÞJ$70ed39c4-1c93-49f2-afb8-aa257ac6dfc8
+~
+java:S6813'"BRemove this field injection and use constructor injection instead.(êæÄÞJ$25238270-7f75-4143-abbd-3ce95596a319
+~
+java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄÞJ$5bc72c87-84da-43f0-b6b3-ecdb68a18246
+~
+java:S6813+"BRemove this field injection and use constructor injection instead.(êæÄÞJ$71a742b4-d575-4c7a-9241-f92293a407a5
+~
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄÞJ$0ef382d7-5b50-4d63-8ead-326e56ea3049
+~
+java:S6813<"BRemove this field injection and use constructor injection instead.(êæÄÞJ$33a53219-d7a6-4420-8ad9-656be57a0a3a
+S
+java:S1144s"6Remove this unused private "resolveSmsGateway" method.(“™‰ë8‰ðü‡“2
+N
+java:S1144w"1Remove this unused private "createSMSLog" method.(•©¥Ý8Šðü‡“2
+T
+java:S1144…"6Remove this unused private "maskSmsLogMessage" method.(–þôÎ8Œðü‡“2
+N
+java:S1144’"1Remove this unused private "updateSMSLog" method.(ð·©i8Œðü‡“2
+`
+java:S1854J">Remove this useless assignment to local variable "senderCode".(Å¶Äøüÿÿÿÿ8Œðü‡“2
+^
+java:S1854I"<Remove this useless assignment to local variable "priority".(„ùÐ‘ûÿÿÿÿ8Œðü‡“2
+c
+java:S1854H"FRemove this useless assignment to local variable "smsGatewayProvider".(§îÓ¡8ðü‡“2
+U
+java:S1854G"8Remove this useless assignment to local variable "stan".(–Ô¥Þ8ðü‡“2
+X
+java:S1854E";Remove this useless assignment to local variable "otpFlag".(ƒˆ‚â8ðü‡“2
+]
+java:S1854D";Remove this useless assignment to local variable "unicode".(ŠÌ’²ÿÿÿÿÿ8ðü‡“2
+b
+java:S1854C"@Remove this useless assignment to local variable "scenarioCode".(«ƒ•¤úÿÿÿÿ8ðü‡“2
+\
+java:S1854A":Remove this useless assignment to local variable "msisdn".(Ï¾çûÿÿÿÿ8Žðü‡“2
+M
+java:S1481A"+Remove this unused "msisdn" local variable.(Ï¾çûÿÿÿÿ8Žðü‡“2
+S
+java:S1481C"1Remove this unused "scenarioCode" local variable.(«ƒ•¤úÿÿÿÿ8Žðü‡“2
+N
+java:S1481D",Remove this unused "unicode" local variable.(ŠÌ’²ÿÿÿÿÿ8Žðü‡“2
+I
+java:S1481E",Remove this unused "otpFlag" local variable.(ƒˆ‚â8Žðü‡“2
+F
+java:S1481G")Remove this unused "stan" local variable.(–Ô¥Þ8ðü‡“2
+T
+java:S1481H"7Remove this unused "smsGatewayProvider" local variable.(§îÓ¡8ðü‡“2
+O
+java:S1481I"-Remove this unused "priority" local variable.(„ùÐ‘ûÿÿÿÿ8ðü‡“2
+Q
+java:S1481J"/Remove this unused "senderCode" local variable.(Å¶Äøüÿÿÿÿ8ðü‡“2
+S
+java:S1481K"1Remove this unused "smsLogEntity" local variable.(œ—‘æúÿÿÿÿ8ðü‡“2
+]	java:S125U"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8•ðü‡“2
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8›ðü‡“2
+o
+java:S1128"RRemove this unused import 'in.novopay.notifications.sms.entity.SmsScenarioEntity'.(µâû«8›ðü‡“2

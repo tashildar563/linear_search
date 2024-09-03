@@ -1,0 +1,27 @@
+
+_
+java:S6813["BRemove this field injection and use constructor injection instead.(Ý¶‚Ÿ8·ä¯‡“2
+_
+java:S6813a"BRemove this field injection and use constructor injection instead.(êæÄÞ8·ä¯‡“2
+_
+java:S6813d"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813g"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813j"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813m"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813p"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813r"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ä¯‡“2
+_
+java:S6813u"BRemove this field injection and use constructor injection instead.(êæÄÞ8¹ä¯‡“2
+_
+java:S6813w"BRemove this field injection and use constructor injection instead.(êæÄÞ8¹ä¯‡“2
+z
+java:S3305n"XInject this field value directly into "rateLimiterFilter", the only method that uses it.(É¨¨æþÿÿÿÿ8»ä¯‡“2
+z
+java:S3305k"XInject this field value directly into "rateLimiterFilter", the only method that uses it.(šâŸªùÿÿÿÿ8»ä¯‡“2
+u
+java:S3305q"XInject this field value directly into "rateLimiterFilter", the only method that uses it.(‚Ÿ”¦8»ä¯‡“2

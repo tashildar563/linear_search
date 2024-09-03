@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-mfi-los" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-actor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-approval" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-authorization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-initial-setup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-masterdata-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-notifications" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-payments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../novopay-platform-task" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../trustt-platform-reporting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../PERSONAL/GIT/DSA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../PERSONAL/GIT/E-com_web" vcs="Git" />
+  </component>
+</project>

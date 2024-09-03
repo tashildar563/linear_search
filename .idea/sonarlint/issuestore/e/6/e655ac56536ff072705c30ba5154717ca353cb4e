@@ -1,0 +1,37 @@
+
+‡
+java:S1192Š"pDefine a constant instead of duplicating this literal "Suppressing exception with code: {} Message: {}" 4 times.(ˆÉÕÕ
+i
+java:S1192"MDefine a constant instead of duplicating this literal "errorMessage" 6 times.(œ¸Ëõÿÿÿÿÿ
+a
+java:S1192"JDefine a constant instead of duplicating this literal "errorCode" 6 times.(ÆœĞ”
+c
+java:S1192†"GDefine a constant instead of duplicating this literal "220000" 3 times.(øŸŠèüÿÿÿÿ
+g
+java:S1192"PDefine a constant instead of duplicating this literal "ignoreErrorCode" 6 times.(ş¤ô
+X
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S68130"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S68133"BRemove this field injection and use constructor injection instead.(êæÄŞ
+b
+java:S6201A"LReplace this instanceof check and cast with 'instanceof Processor processor'(ª›¶û
+V
+java:S6201C"@Replace this instanceof check and cast with 'instanceof API api'(î®…ã
+b
+java:S6201M"LReplace this instanceof check and cast with 'instanceof Processor processor'(ª›¶û
+V
+java:S6201O"@Replace this instanceof check and cast with 'instanceof API api'(î®…ã
+k
+java:S6201Q"PReplace this instanceof check and cast with 'instanceof Transaction transaction'(ü›úïşÿÿÿÿ
+k
+java:S6201Q"PReplace this instanceof check and cast with 'instanceof Transaction transaction'(ü›úïşÿÿÿÿ
+i
+java:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÙÜ–
+R
+java:S1874›"6Remove this use of "StrSubstitutor"; it is deprecated.(©óôÿÿÿÿÿ
+R
+java:S1874›"6Remove this use of "StrSubstitutor"; it is deprecated.(©óôÿÿÿÿÿ
+b
+java:S1301¦"KReplace this "switch" statement by "if" statements to increase readability.(õ·ÀŸ

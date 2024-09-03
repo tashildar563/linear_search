@@ -1,0 +1,24 @@
+
+Q	java:S107î"<Method has 9 parameters, which is greater than 7 authorized.(ÑĞˆX
+W	java:S107Ÿ"<Method has 9 parameters, which is greater than 7 authorized.(Çó§İúÿÿÿÿ
+d
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(§‘©„üÿÿÿÿ
+d
+java:S5738Š"HRemove this call to a deprecated method, it has been marked for removal.(§‘©„üÿÿÿÿ
+F
+java:S1905š"/Remove this unnecessary cast to "SkipListener".(¾Ï¨á
+d
+java:S5738³"HRemove this call to a deprecated method, it has been marked for removal.(§‘©„üÿÿÿÿ
+d
+java:S5738¼"HRemove this call to a deprecated method, it has been marked for removal.(§‘©„üÿÿÿÿ
+F
+java:S1905Ì"/Remove this unnecessary cast to "SkipListener".(¾Ï¨á
+C
+java:S1172ß",Remove this unused method parameter "chunk".(Î°¯±
+W	java:S125ç"<This block of commented-out lines of code should be removed.(ß«¤àıÿÿÿÿ
+H
+java:S1172‰",Remove this unused method parameter "chunk".(…Õ¡éüÿÿÿÿ
+R	java:S125‹"<This block of commented-out lines of code should be removed.(æ³ö
+W	java:S125’"<This block of commented-out lines of code should be removed.(ß«¤àıÿÿÿÿ
+F
+java:S1068C"0Remove this unused "isChunkMulti" private field.(±’™ã
