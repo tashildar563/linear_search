@@ -37,7 +37,7 @@ public class MergeSort {
         if(si>=ei){
             return;
         }
-        // find mic
+        // find mid
         // staring index + (ending index - staring index)/ 2
         int mid = si + (ei-si)/2;
         //deviding the arr from staring index to mid index;

@@ -12,41 +12,36 @@ public class MergeSortSecondTime {
     }
 
     private static void devideArr(int[] arr, int start, int end) {
-        if(start>=end){
-            return;
-        }
-        int mid = start+(end-start)/2;
-
-        devideArr(arr,start,mid);
-        devideArr(arr,mid+1,end);
-
-        conquer(arr,start,mid,end);
+       if(start>=end){
+           return;
+       }
+       int mid = 1+(end-start)/2;
+       devideArr(arr,start,mid);
+       devideArr(arr,mid+1,end);
+       conquer(arr,start,mid,end);
     }
 
     private static void conquer(int[] arr, int start, int mid, int end) {
-        int merged[] = new int[end-start+1];
-
-        int firstInd = start;
-        int secondInd =mid+1;
+        int [] mergedArray = new int[end-start+1];
+        int id1 = start;
+        int id2= mid+1;
         int x=0;
 
-        while(firstInd<=mid && secondInd <=end){
-           if(arr[firstInd]<=arr[secondInd]){
-               merged[x++]=arr[firstInd++];
-           }else{
-               merged[x++]=arr[secondInd++];
-           }
+        while (id1<=mid && id2<=end){
+            if(arr[id1]<=arr[id2]){
+                mergedArray[x++]=arr[id1++];
+            }else{
+                mergedArray[x++]=arr[id2++];
+            }
         }
-
-        while (firstInd<=mid){
-            merged[x++]=arr[firstInd++];
+        while(id1<=mid){
+            mergedArray[x++]=arr[id1++];
         }
-
-        while(secondInd<=end){
-            merged[x++]=arr[secondInd++];
+        while(id2<=end){
+            mergedArray[x++]=arr[id2++];
         }
-        for(int i=0,j=start;i< merged.length;i++,j++){
-            arr[j] = merged[i];
+        for(int i=0,j =start;i<mergedArray.length;i++,j++){
+            arr[j]=mergedArray[i];
         }
     }
 
