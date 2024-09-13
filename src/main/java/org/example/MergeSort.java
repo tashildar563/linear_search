@@ -55,6 +55,8 @@ public class MergeSort {
         for(int i =0; i<n;i++){
             System.out.print(arr[i]+" ");
         }
+        //what is time complexity of merge sort
+        // O(nlogn)
 
     }
 }

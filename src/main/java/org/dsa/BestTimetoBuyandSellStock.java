@@ -26,7 +26,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.*/
         // and profit = 0;
         // for each of elemet from array
         //if i the element < buy >> buy updated with i th element of array
-        int prices [] = new int[]{7,1,5,3,6,4};
+        int prices [] = new int[]{7,1,5,3,2,4};
         int buy = prices[0];
         int profits=0;
         for(int i=0;i<prices.length;i++){

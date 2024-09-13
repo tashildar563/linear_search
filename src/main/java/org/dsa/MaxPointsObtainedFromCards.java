@@ -25,7 +25,6 @@ public class MaxPointsObtainedFromCards {
 //        return maxSum;
         int ans=0;
         int sum=0;
-        int ret=0;
         int n=arr.length;
         for(int i=n-k;i<=n+k-1;i++){
             if(i<n){

@@ -1,0 +1,185 @@
+What is JIT?
+>> Java in Time :  JIT is a part of the Java Runtime Environment (JRE)
+                            A compiler that recompiles bytecode into system code for a particular system platform.
+                            This is done so that the code runs more quickly on that computer.
+
+                            --The JIT compiler compiles the byte code into machine code at runtime,
+                            and stores this machine code in memory.
+
+                             Here is a simple example to understand the concept of JIT.
+                              When a Java program is compiled, the Java compiler translates the Java code into byte code.
+                              Then, the JVM translates the byte code into machine code.
+                              The machine code is then executed by the computer.
+                              The JIT compiler compiles the byte code into machine code at runtime,
+                              and stores this machine code in memory.
+                              The next time the same code is executed,
+                              the JIT compiler uses the stored machine code instead of compiling the same code again.
+                              This results in faster execution of the program.
+                              JIT is a key component of the Java Virtual Machine (JVM) that helps improve
+                               the performance of Java programs.
+
+ what is Java Runtime Environment (JRE) ?
+    >> Java Runtime Environment (JRE) is a software package that provides the Java Virtual Machine (JVM),
+        Java platform core classes, and supporting Java platform libraries.
+        The JRE is the runtime environment in which Java programs run.
+        It is used to run Java applications and applets on a computer.
+        The JRE includes the Java Virtual Machine (JVM), which is responsible for executing Java bytecode,
+        as well as the Java class libraries, which provide the core functionality of the Java programming language.
+        The JRE is an essential component of the Java platform that enables Java programs to run on different operating systems and hardware platforms.
+
+2.What is a ClassLoader?
+>> ClassLoader is a subsystem of JVM that is used to load class files.
+   It is a part of the Java Runtime Environment (JRE) that dynamically loads Java classes into the JVM.
+   The ClassLoader is responsible for loading classes from the file system, network, or other sources.
+   There are three types of ClassLoaders in Java:
+   1. Bootstrap ClassLoader: It is the parent of all other ClassLoaders and loads core Java classes from the rt.jar file.
+   2. Extension ClassLoader: It loads classes from the extensions directory, usually located at jre/lib/ext.
+   3. System ClassLoader: It loads classes from the classpath, which can be set using the -classpath or -cp option.
+   The ClassLoader uses a delegation model to load classes. When a class is requested, the ClassLoader first delegates the request to its parent ClassLoader before attempting to load the class itself.
+   If the parent ClassLoader cannot find the class, the ClassLoader will attempt to load the class itself.
+   The ClassLoader is an essential component of the Java Virtual Machine (JVM) that helps manage the loading of classes at runtime.
+
+ 3. What are the Memory Allocations available in java ?
+    >> Java memory allocation is the process of reserving memory space in the Java Virtual Machine (JVM)
+    for storing objects and data during program execution.
+
+        list of memory allocations in java:
+        Stack Memory, Heap Memory, Method Area, Runtime Constant Pool, Native Method Stack, PC Register, Direct Memory.
+
+        1. Stack Memory: Stack memory is used for storing local variables and method call information. Each thread in a Java program has its own stack memory.
+        2. Heap Memory: Heap memory is used for storing objects and data that are created during program execution. It is shared among all threads in a Java program.
+        3. Method Area: The method area is used for storing class and method information, such as method bytecode, field information, and constant pool data.
+        4. Runtime Constant Pool: The runtime constant pool is a part of the method area that stores constant pool data, such as string literals and symbolic references.
+        5. Native Method Stack: The native method stack is used for storing information related to native methods, which are methods implemented in a language other than Java.
+        6. PC Register: The program counter (PC) register is used for storing the address of the current instruction being executed by the JVM.
+        7. Direct Memory: Direct memory is memory allocated outside of the JVM heap, typically using the java.nio package for high-performance I/O operations.
+        These memory areas work together to manage memory allocation in a Java program and ensure efficient memory usage during program execution.
+
+ 4. Will the program run if i write static public void main?
+    >> Yes, the program will run if you write static public void main in Java.
+       The main method in Java is the entry point for a Java program, and it must be declared as public static void main(String[] args).
+       The order of the access modifiers (public and static) does not matter, so static public void main(String[] args) is also a valid declaration for the main method.
+       The main method is a special method that is called by the Java Virtual Machine (JVM) to start the execution of a Java program.
+       It is required to have the correct signature (public static void main(String[] args)) in order for the JVM to recognize it as the main method.
+       The main method is where the program logic is typically written, and it is responsible for executing the program's functionality.
+
+   5 what is default value stored in local variables?
+    >> Local variables in Java do not have default values and must be explicitly initialized before they can be used.
+
+       If a local variable is not initialized before it is used, the Java compiler will generate an error.
+       Local variables are variables that are declared within a method or block of code and have a limited scope.
+       They are not automatically initialized by the Java Virtual Machine (JVM) like instance variables or class variables.
+       It is the responsibility of the programmer to initialize local variables before using them in Java.
+
+6. what is an Association in Java?
+   >> An Association can be defined as a relationship that has no ownership over another class.
+      It is a structural relationship that represents objects being connected to each other.
+      In Java, an Association is typically represented by a reference to another class within a class.
+      For example, if a class A has a reference to an object of class B, then class A is said to be associated with class B.
+      Associations can be one-to-one, one-to-many, or many-to-many, depending on the cardinality of the relationship between the classes.
+      Associations are an important concept in object-oriented programming and are used to model relationships between objects in a system.
+
+ 7. Define Copy Constructor in java.
+    >> A copy constructor in Java is a special type of constructor that creates a new object by copying the values of an existing object.
+       It is used to create a new object that is a copy of an existing object, with the same values for its fields.
+       The copy constructor takes an object of the same class as a parameter and initializes the new object with the values of the existing object.
+       Copy constructors are useful for creating deep copies of objects, where all fields of the object are copied, rather than just copying the reference to the object.
+       In Java, copy constructors are not built-in like in some other programming languages,
+       but they can be implemented manually by defining a constructor that takes an object of the same class as a parameter and copies its values to the new object.
+
+    8. What is Constructor?
+         >> A constructor in Java is a special type of method that is used to initialize objects of a class.
+             It is called when an object of the class is created using the new keyword.
+             Constructors have the same name as the class and do not have a return type.
+             They can have parameters to initialize the object with specific values.
+             Constructors can be used to set default values for object fields, perform initialization tasks, and ensure that objects are in a valid state when they are created.
+             There are two types of constructors in Java: default constructors and parameterized constructors.
+             Default constructors are automatically created by the Java compiler if no constructor is defined in the class,
+             while parameterized constructors are defined by the programmer and can take parameters to initialize the object with specific values.
+
+     9 What is a Marker Interface?
+     >> Empty Interface in Java is known as a marker interface.
+        It is an interface that does not contain any methods or fields.
+        Marker interfaces are used to mark classes that implement them as having a certain property or behavior.
+        They are used to provide metadata or information about a class to the Java
+
+
+
+      10 Object? In simple English
+        >> An object in Java is a real-world entity that has state and behavior.
+
+      11 Class ? In simple English with simple example.
+        >> A class in Java is a blueprint or template for creating objects.
+
+           For example, a Car class can define the properties of a car, such as color, model, and year, as well as the behavior of a car, such as driving and stopping.
+           Objects are instances of classes, and each object created from a class has its own
+
+      12 Inheritance? In simple English with simple example.
+        >> Inheritance in Java is a mechanism where a new class inherits properties and behavior from an existing class.
+
+           For example, a Car class can inherit properties and behavior from a Vehicle class, such as speed and fuel consumption.
+           This allows the Car class to reuse the code and functionality of the Vehicle class, making the code more modular and easier to maintain.
+           Inheritance is an important concept in object-oriented programming that promotes code reusability and helps create a hierarchy of classes.
+
+      13 Polymorphism? In simple English with simple example.
+        >> Polymorphism in Java is the ability of an object to take on multiple forms.
+            Overloading and overriding are two types of polymorphism in Java.
+                   << overloading: Overloading is a type of polymorphism in which a single method can have multiple implementations based on the number or type of its parameters.
+                   << overriding: Overriding is a type of polymorphism in which a subclass provides a specific implementation of a method that is already defined in its superclass.
+           For example, a Car object can be used as a Vehicle object, a Sedan object, or a SportsCar object, depending on the context in which it is used.
+           This allows objects to be treated as instances of their superclass or interface, enabling code to be more flexible and adaptable.
+           Polymorphism is an important concept in object-oriented programming that allows objects to be used interchangeably and promotes code reuse and flexibility.
+
+      14 Abstraction? In simple English with simple example.
+        >> Abstraction in Java is the process of hiding the implementation details of a class and showing only the essential features to the user.
+
+           For example, a Car class can provide a drive() method that hides the internal details of how the car is driven, such as starting the engine and shifting gears.
+           This allows the user to interact with the Car class using a simple interface, without needing to know the complex implementation details.
+           Abstraction is an important concept in object-oriented programming that helps manage complexity and improve code readability and maintainability.
+
+      15 Encapsulation? In simple English with simple example.
+        >> Encapsulation in Java is the process of wrapping data and methods into a single unit called a class.
+
+           For example, a Car class can encapsulate data such as color, model, and year, as well as methods such as drive() and stop().
+           This allows the data and methods to be accessed and manipulated only through the class interface, providing data security and preventing unauthorized access.
+           Encapsulation is an important concept in object-oriented programming that helps protect data and ensure that objects are used in a consistent and controlled manner.
+
+      16 Object-Oriented design:
+        >> Object-oriented design is a methodology for designing software systems based on the principles of object-oriented programming.
+
+           It involves identifying objects, defining their properties and behaviors, and modeling their interactions to create a system that meets the requirements of the problem domain.
+           Object-oriented design promotes code reusability, modularity, and maintainability by organizing code into classes and objects that represent real-world entities and their relationships.
+           It helps create software systems that are flexible, scalable, and easy to understand and maintain.
+
+     17 Coupling?
+        >> Coupling is a measure of the degree of interdependence between modules or classes in a software system.
+
+           It refers to how closely two modules or classes are connected or dependent on each other.
+           Low coupling means that modules or classes are loosely connected and can be changed independently without affecting other parts of the system.
+           High coupling means that modules or classes are tightly connected and changes to one module or class may require changes to other parts of the system.
+           Coupling is an important concept in software design that affects the flexibility, maintainability, and reusability of a software system.
+
+      18 Cohesion?
+        >> Cohesion is a measure of the degree to which the elements of a module or class are related to each other and work together to achieve a common goal.
+
+           It refers to how well the elements of a module or class are organized and focused on a single purpose or responsibility.
+           High cohesion means that the elements of a module or class are closely related and work together to achieve a common goal.
+           Low cohesion means that the elements of a module or class are loosely related and may not work together effectively.
+           Cohesion is an important concept in software design that affects the readability, maintainability, and reusability of a software system.
+
+      19 Association?
+        >> Association is a relationship between two classes that describes how objects of one class are connected to objects of another class.
+
+           It represents a structural relationship between classes and is used to model the connections or interactions between objects in a system.
+           Associations can be one-to-one, one-to-many, or many-to-many, depending on the cardinality of the relationship between the classes.
+           Associations are an important concept in object-oriented programming that helps define the relationships between objects and how they interact with each other.
+
+        20 Aggregation?
+        >> Aggregation is a type of association in which one class contains objects of another class as part of its state.
+
+           It represents a whole-part relationship between classes, where one class is composed of objects of another class.
+
+Design Pattern >> https://refactoring.guru/design-patterns/factory-method
+
+
+
