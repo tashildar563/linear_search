@@ -48,7 +48,7 @@ public class MergeSort {
         conquer(arr,si,mid,ei);
     }
     public static void main (String[] args){
-        int arr[]={0,0,0,0,2,1,2,1,2,1,2,3,};
+        int arr[]={4444,6,2,5,235};
         int n = arr.length;
 
         devide(arr,0,n-1);

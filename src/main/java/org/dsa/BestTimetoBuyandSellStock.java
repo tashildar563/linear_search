@@ -26,15 +26,27 @@ Explanation: In this case, no transactions are done and the max profit = 0.*/
         // and profit = 0;
         // for each of elemet from array
         //if i the element < buy >> buy updated with i th element of array
-        int prices [] = new int[]{7,1,5,3,2,4};
-        int buy = prices[0];
-        int profits=0;
-        for(int i=0;i<prices.length;i++){
-            if(buy>prices[i]){
-                buy=prices[i];
-            }else if(profits<prices[i]-buy){
-                profits=prices[i]-buy;
+//        int prices [] = new int[]{7,1,5,3,2,4};
+//        int buy = prices[0];
+//        int profits=0;
+//        for(int i=0;i<prices.length;i++){
+//            if(buy>prices[i]){
+//                buy=prices[i];
+//            }else if(profits<prices[i]-buy){
+//                profits=prices[i]-buy;
+//
+//            }
+//        }
+//        System.out.print(profits);
 
+        int prices2 [] = new int[]{7,3,4,5,6,3,4};
+        int buy = prices2[0];
+        int profits =0;
+        for(int i=0;i<prices2.length;i++){
+            if(buy>prices2[i]){
+                buy=prices2[i];
+            }else if(profits<prices2[i]-buy){
+                profits=prices2[i]-buy;;
             }
         }
         System.out.print(profits);

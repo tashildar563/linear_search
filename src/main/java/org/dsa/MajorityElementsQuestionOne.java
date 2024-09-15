@@ -26,16 +26,16 @@ public class MajorityElementsQuestionOne {
         Map<String,Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         for(int i=0;i<n;i++){
-            int v = map.getOrDefault(arr[i],0);
-            map.put(String.valueOf(arr[i]),v+=1);
-            if(null!=map.get(String.valueOf(arr[i]))){
-                int c = map.get(String.valueOf(arr[i]));
-            }else{
+            int v = map.getOrDefault(String.valueOf(arr[i]),0);
+            if(null==map.get(String.valueOf(arr[i]))){
                 map.put(String.valueOf(arr[i]),1);
+            }else{
+                map.put(String.valueOf(arr[i]),v+=1);
             }
         }
         for(Map.Entry<String,Integer> entry : map.entrySet()){
-            if(entry.getValue()>n/3){
+            int t = n/3;
+            if(entry.getValue()>t){
                 list.add(Integer.parseInt(entry.getKey()));
             }
         }
