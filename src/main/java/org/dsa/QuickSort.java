@@ -14,21 +14,24 @@ public class QuickSort {
     public static void  quickSort(int [] arr,int low, int high){
         if(low<high){
             int pi = partion(arr,low,high);
-            quickSort(arr,low,pi);
+            quickSort(arr,low,pi-1);
             quickSort(arr,pi+1,high);
         }
     }
 
     private static int partion(int[] arr, int low, int high) {
         int pivot =arr[high];
-        int i= low;
-        for(int j=i;j<=high-1;j++){
+        int i= low-1;
+        for(int j=low;j<high;j++){
             if(pivot>arr[j]){
                 i++;
                 swapEl(arr,i,j);
         }
     }
-        swapEl(arr,i,high);
+        i++;
+        int temp = arr[i];
+        arr[i]=pivot;
+        arr[high]=temp;
         return i;
 }
 

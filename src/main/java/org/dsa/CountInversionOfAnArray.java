@@ -2,10 +2,13 @@ package org.dsa;
 
 public class CountInversionOfAnArray {
     public static void main(String[] args) {
-        int arr[]={8234,52,23,5,63};
+        int arr[]={1,2,3,4,5};
         int n= arr.length;
         int res = countInversion(arr,0,n-1);
         System.out.println(res);
+        for(int i=0;i<n;i++){
+            System.out.println(arr[i]);
+        }
     }
 
     private static int countInversion(int[] arr, int l, int r) {
@@ -27,19 +30,19 @@ public class CountInversionOfAnArray {
         int idx2=mid+1;
         int cnt =0;
 
-       while(id1<=mid && idx2<=r){
+       while(id1<mid+1 && idx2<=r){
            if(arr[id1]<=arr[idx2]){
-               arr[x++]=arr[id1++];
+               merged[x++]=arr[id1++];
            }else{
-               arr[x++]=arr[idx2++];
+               merged[x++]=arr[idx2++];
                 cnt+=mid-l+1;
            }
        }
        while(id1<=mid){
-           arr[x++]=arr[id1++];
+           merged[x++]=arr[id1++];
        }
        while(idx2<=r){
-           arr[x++]=arr[idx2++];
+           merged[x++]=arr[idx2++];
        }
        for(int i=0,j=l;i<merged.length;i++,j++){
            arr[j]=merged[i];
