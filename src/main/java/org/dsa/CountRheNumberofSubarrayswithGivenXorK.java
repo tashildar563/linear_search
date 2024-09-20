@@ -19,7 +19,7 @@ public class CountRheNumberofSubarrayswithGivenXorK {
                 cnt+=(int)map.getOrDefault(x,0);
             }
             if(map.containsKey(xr)){
-                map.put(xr,(int)map.get(xr)+1);
+                map.put(xr,(int)map.get(xr)+    1);
             }else{
                 map.put(xr,1);
             }
